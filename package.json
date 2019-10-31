@@ -5,8 +5,6 @@
   "main": "script.js",
   "scripts": {
     "build": "browserify script.js > bundle.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +15,6 @@
   "bugs": {
     "url": "https://github.com/NimrodM0802/background-generator/issues"
   },
-  "homepage": "https://nimrodm0802.github.io//background-generator",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "lodash": "^4.17.15"
